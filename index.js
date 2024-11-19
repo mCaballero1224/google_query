@@ -87,7 +87,7 @@ app.get("/search", async (req, res) => {
 		/* Try to fetch the search results based on the query string and limit */
 		console.log(`Fetching results for query: '${query}' for the top ${limit} results`);
 		const results = await queryGoogle(query, limit);
-		res.json({ query, results });
+		res.json({ results });
 	} catch (error) {
 		/* Handle error fetching the results */
 		res.status(500).json({ error: "Failed to fetch search results." });
