@@ -36,6 +36,8 @@ Content-Type: application/json
 }
 ```
 
+An example that uses the microservice can be found in the [example](https://github.com/mCaballero1224/google_query/tree/main/example) directory.
+
 ## Application
 
 <p style="text-align:center;">
