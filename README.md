@@ -35,3 +35,13 @@ Content-Type: application/json
   "limit": 10
 }
 ```
+
+## Application
+
+<p style="text-align:center;">
+  <img src="https://github.com/mCaballero1224/google_query/blob/main/assets/UML_diagram.png" atl="UML Diagram">
+</p>
+
+## Citations
+
+Code adapted from the example given in [this article](https://medium.com/@darshankhandelwal12/how-to-scrape-google-organic-search-results-with-node-js-d3abe0274f40) by Darshan Khandelwal.
